@@ -1,0 +1,23 @@
+{
+  "name": "bridgeshop",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000B\u0000r\u0000i\u0000d\u0000g\u0000e\u0000S\u0000h\u0000o\u0000p\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TestadeNevill/BridgeShop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TestadeNevill/BridgeShop/issues"
+  },
+  "homepage": "https://github.com/TestadeNevill/BridgeShop#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
