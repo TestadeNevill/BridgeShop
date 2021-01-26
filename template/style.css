@@ -54,6 +54,16 @@ footer {
   align-items: center; */
 }
 
+/* Common */
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+h2 {
+  font-size: 1.6rem;
+  padding: 1rem 0;
+}
 a {
   text-decoration: none;
 }
@@ -80,27 +90,38 @@ a.brand {
   justify-content: center;
 }
 
-/* Home Screen */
-
-/* .products {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+img {
+  border-radius: 0.5rem;
+}
+img.medium {
+  max-width: 29rem;
+  width: 100%;
 }
 
-.products li {
-  list-style-type: none;
-  padding: 0;
-  flex: 0 1 34rem;
+/* Card */
+
+.card {
+  border: 0.1rem #c0c0c0 solid;
+  background-color: #f8f8ff;
+  border-radius: 0.5rem;
   margin: 1rem;
-  height: 50rem;
-  border-bottom: 0.1rem #c0c0c0 solid;
 }
 
-.products-name {
+.card-body {
+  padding: 1rem;
 }
 
-.product-image {
-  max-width: 34rem;
-  max-height: 34rem;
-} */
+.card-body > * {
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  font-size: 2rem;
+}
+
+/* Rating */
+
+.rating span {
+  color: #f0c040;
+  margin: 00.1rem;
+}
